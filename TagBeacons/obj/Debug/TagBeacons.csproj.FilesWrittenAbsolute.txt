@@ -1,0 +1,2 @@
+/Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/MonoAndroid,Version=v2.2.AssemblyAttribute.cs
+/Users/Paul/Developer/TagBeacons/TagBeacons/bin/Debug/Android-iBeacon-Service.dll

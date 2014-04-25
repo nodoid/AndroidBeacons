@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package tagbeacons.tagbeacons;
+package com.radiusnetworks.ibeacon;
 
 public final class R {
     public static final class attr {
