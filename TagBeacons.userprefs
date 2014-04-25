@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TagBeacons/SQL/Beacon.cs">
+    <Files>
+      <File FileName="TagBeacons/MainActivity.cs" Line="13" Column="21" />
+      <File FileName="TagBeacons/SQL/Constants.cs" Line="5" Column="9" />
+      <File FileName="TagBeacons/SQL/SQLite.cs" Line="1" Column="1" />
+      <File FileName="TagBeacons/SQL/DBManager.cs" Line="23" Column="10" />
+      <File FileName="TagBeacons/SQL/Beacon.cs" Line="8" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="TagBeacons" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="SQL" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
