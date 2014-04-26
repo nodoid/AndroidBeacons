@@ -12,6 +12,10 @@ namespace TagBeacons
 
         public int Proximity { get; set; }
 
+        public int Major { get; set; }
+
+        public int Minor { get; set; }
+
         public DateTime FirstSeen { get; set; }
 
         public DateTime LastSeen { get; set; }
@@ -22,7 +26,7 @@ namespace TagBeacons
 
         public override string ToString()
         {
-            return string.Format("[Beacon: DeviceUUID={0}, DeviceDistance={1}, Proximity={2}, FirstSeen={3}, LastSeen={4}, WelcomeMessage={5}, SignalStrength={6}]", DeviceUUID, DeviceDistance, Proximity, FirstSeen, LastSeen, WelcomeMessage, SignalStrength);
+            return string.Format("[Beacon: DeviceUUID={0}, DeviceDistance={1}, Proximity={2}, Major={3}, Minor={4}, FirstSeen={5}, LastSeen={6}, WelcomeMessage={7}, SignalStrength={8}]", DeviceUUID, DeviceDistance, Proximity, Major, Minor, FirstSeen, LastSeen, WelcomeMessage, SignalStrength);
         }
     }
 }
