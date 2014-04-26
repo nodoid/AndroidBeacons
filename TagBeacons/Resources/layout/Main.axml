@@ -111,7 +111,7 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="2dp" />
             <TextView
-                android:text="Medium Text"
+                android:text="0"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -222,6 +222,28 @@
                 android:layout_height="match_parent"
                 android:id="@+id/textNumberSeen"
                 android:layout_marginLeft="2dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout12"
+            android:gravity="center_horizontal">
+            <TextView
+                android:text="Beacons in range"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView16"
+                android:layout_marginRight="5dp" />
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textInRange" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
