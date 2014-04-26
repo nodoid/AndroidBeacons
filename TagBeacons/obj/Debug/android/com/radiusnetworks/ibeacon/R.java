@@ -17,6 +17,7 @@ public final class R {
         public static final int linearLayout1=0x7f050000;
         public static final int linearLayout10=0x7f050016;
         public static final int linearLayout11=0x7f050002;
+        public static final int linearLayout12=0x7f05001d;
         public static final int linearLayout2=0x7f050005;
         public static final int linearLayout3=0x7f050019;
         public static final int linearLayout4=0x7f05001a;
@@ -26,6 +27,7 @@ public final class R {
         public static final int linearLayout8=0x7f050009;
         public static final int linearLayout9=0x7f050013;
         public static final int textDistance=0x7f05000e;
+        public static final int textInRange=0x7f05001f;
         public static final int textMajor=0x7f050012;
         public static final int textMessage=0x7f050018;
         public static final int textMinor=0x7f050015;
@@ -37,6 +39,7 @@ public final class R {
         public static final int textView13=0x7f05000f;
         public static final int textView14=0x7f050017;
         public static final int textView15=0x7f050003;
+        public static final int textView16=0x7f05001e;
         public static final int textView2=0x7f05001b;
         public static final int textView3=0x7f050007;
         public static final int textView4=0x7f05000d;
