@@ -69,6 +69,9 @@ namespace TagBeacons
 			// aapt resource value: 0x7f050002
 			public const int linearLayout11 = 2131034114;
 			
+			// aapt resource value: 0x7f05001d
+			public const int linearLayout12 = 2131034141;
+			
 			// aapt resource value: 0x7f050005
 			public const int linearLayout2 = 2131034117;
 			
@@ -95,6 +98,9 @@ namespace TagBeacons
 			
 			// aapt resource value: 0x7f05000e
 			public const int textDistance = 2131034126;
+			
+			// aapt resource value: 0x7f05001f
+			public const int textInRange = 2131034143;
 			
 			// aapt resource value: 0x7f050012
 			public const int textMajor = 2131034130;
@@ -128,6 +134,9 @@ namespace TagBeacons
 			
 			// aapt resource value: 0x7f050003
 			public const int textView15 = 2131034115;
+			
+			// aapt resource value: 0x7f05001e
+			public const int textView16 = 2131034142;
 			
 			// aapt resource value: 0x7f05001b
 			public const int textView2 = 2131034139;
