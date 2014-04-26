@@ -1,13 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TagBeacons/Properties/AndroidManifest.xml">
     <Files>
-      <File FileName="TagBeacons/MainActivity.cs" Line="24" Column="9" />
-      <File FileName="TagBeacons/RangeMonitor.cs" Line="42" Column="10" />
+      <File FileName="TagBeacons/MainActivity.cs" Line="23" Column="31" />
+      <File FileName="TagBeacons/RangeMonitor.cs" Line="56" Column="43" />
+      <File FileName="TagBeacons/SQL/Beacon.cs" Line="19" Column="9" />
+      <File FileName="TagBeacons/SQL/DBManager.cs" Line="87" Column="56" />
+      <File FileName="TagBeacons/Properties/AndroidManifest.xml" Line="9" Column="53" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Paul/Developer/TagBeacons/TagBeacons/MainActivity.cs" line="115" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TagBeacons MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="4df1baca6de85fdb" />
 </Properties>
