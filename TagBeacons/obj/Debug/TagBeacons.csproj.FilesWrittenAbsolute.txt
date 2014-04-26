@@ -1,2 +1,14 @@
 /Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/MonoAndroid,Version=v2.2.AssemblyAttribute.cs
 /Users/Paul/Developer/TagBeacons/TagBeacons/bin/Debug/Android-iBeacon-Service.dll
+/Users/Paul/Developer/TagBeacons/TagBeacons/bin/Debug/TagBeacons.dll.mdb
+/Users/Paul/Developer/TagBeacons/TagBeacons/bin/Debug/TagBeacons.dll
+/Users/Paul/Developer/TagBeacons/TagBeacons/bin/Debug/TagBeacons.TagBeacons.apk
+/Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/android/bin/TagBeacons.TagBeacons.apk
+/Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/res/layout/main.xml
+/Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/res/values/strings.xml
+/Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/res/drawable/icon.png
+/Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/R.cs.flag
+/Users/Paul/Developer/TagBeacons/TagBeacons/bin/Debug/TagBeacons.TagBeacons-Signed.apk
+/Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/uploadflags.txt
+/Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/TagBeacons.dll
+/Users/Paul/Developer/TagBeacons/TagBeacons/obj/Debug/TagBeacons.dll.mdb
