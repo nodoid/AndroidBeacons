@@ -94,10 +94,10 @@ namespace TagBeacons
                     sqlcon.BeginTransaction();
                     try
                     {
-                        if (sqlcon.Execute("UPDATE Beacon DeviceUUID=?," +
-                           "DeviceDistance=?,Proximity=?,FirstSeen=?,LastSeen=?,WelcomeMessage=?,SignalStrength=? WHERE DeviceUUID=?",
-                               beacon.DeviceUUID, beacon.DeviceDistance, beacon.Proximity, beacon.FirstSeen, beacon.LastSeen, beacon.WelcomeMessage, 
-                               beacon.SignalStrength, beacon.DeviceUUID) == 0)
+                        if (sqlcon.Execute("UPDATE Beacon Set DeviceUUID=?," +
+                            "DeviceDistance=?,Proximity=?,FirstSeen=?,LastSeen=?,WelcomeMessage=?,SignalStrength=?,Major=?,Minor=? WHERE DeviceUUID=?",
+                                beacon.DeviceUUID, beacon.DeviceDistance, beacon.Proximity, beacon.FirstSeen, beacon.LastSeen, beacon.WelcomeMessage, 
+                                beacon.SignalStrength, beacon.Major, beacon.Minor, beacon.DeviceUUID) == 0)
                             sqlcon.Insert(beacon, typeof(Beacon));
                         sqlcon.Commit(); 
                     }
@@ -126,7 +126,7 @@ namespace TagBeacons
                 {
                     sqlCon.Execute(Constants.DBClauseSyncOff);
                     sqlCon.BeginTransaction();
-                    string sql = string.Format("SELECT * FROM Beacons WHERE id=\"{0}\"", id);
+                    string sql = string.Format("SELECT * FROM Beacon WHERE DeviceUUID=\"{0}\"", id);
                     var data = sqlCon.Query<Beacon>(sql);
                     return data;
                 }
@@ -141,7 +141,7 @@ namespace TagBeacons
                 {
                     sqlCon.Execute(Constants.DBClauseSyncOff);
                     sqlCon.BeginTransaction();
-                    var data = sqlCon.Query<Beacon>("SELECT * FROM Beacons");
+                    var data = sqlCon.Query<Beacon>("SELECT * FROM Beacon");
                     return data;
                 }
             }
